@@ -1,6 +1,6 @@
 # Skin_disease_recognition
-Built multiple neural network to recognise 8 different skin disease <br>
-The project aims in recognising 8 differnt . 
+
+The project aims in recognising 8 differnt skin diseases, 3 different moodels are built for these purpose which take in different type of data to recognise the diseases. 
 ## Dataset 
 The dataset used here is the HAM10000 datset which contains 8 different skin diseases which are 
 1)  Actinic keratoses and intraepithelial carcinoma / Bowen's disease (akiec)
