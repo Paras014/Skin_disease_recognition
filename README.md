@@ -3,14 +3,14 @@
 The project aims in recognising 8 differnt skin diseases, 3 different moodels are built for these purpose which take in different type of data to recognise the diseases. 
 ## Dataset 
 The dataset used here is the HAM10000 datset which contains 8 different skin diseases which are 
- 1)  Actinic keratoses and intraepithelial carcinoma / Bowen's disease (akiec)
- 2)  Basal cell carcinoma (bcc)
- 3)  Benign keratosis-like lesions (solar lentigines / seborrheic keratoses and lichen-planus like keratoses, bkl )
- 4)  Dermatofibroma (df)
- 5)  Melanoma (mel)
- 6)  Melanocytic nevi (nv)
- 7)  Vascular lesions (angiomas, angiokeratomas, pyogenic granulomas and hemorrhage, vasc) <br>
-The dataset is in multiple forms where you get the dataset with images and a metacsv file , which contains columns as lesion_id,image_id	,dx	,dx_type,age,sex,	localization <br>
+1)  Actinic keratoses and intraepithelial carcinoma / Bowen's disease (akiec)
+2)  Basal cell carcinoma (bcc)
+3)  Benign keratosis-like lesions (solar lentigines / seborrheic keratoses and lichen-planus like keratoses, bkl )
+4)  Dermatofibroma (df)
+5)  Melanoma (mel)
+6)  Melanocytic nevi (nv)
+7)  Vascular lesions (angiomas, angiokeratomas, pyogenic granulomas and hemorrhage, vasc) <br>
+The dataset is in multiple forms where you get the dataset with images and a metacsv file , which contains columns as lesion_id,image_id	,dx	,dx_type,age,sex,	localization. <br>
 Also there is another form of the dataset which is as a csv which is represents every image compressed in the form of 28*28*3 pixel image , it contains 2353(28*28*3 + 1) columns which is 1 for every pixel plus the label of the image .
 ## Results
 The results achieved with the different models were -
